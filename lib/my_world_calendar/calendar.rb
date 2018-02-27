@@ -1,4 +1,4 @@
-module MyWorldCalender
+module MyWorldCalendar
   class Calender
     def initialize(name, year, month, day, hour, minute, second)
       @name = name

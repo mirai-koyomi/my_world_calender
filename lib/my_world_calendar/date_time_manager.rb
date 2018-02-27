@@ -1,4 +1,4 @@
-module MyWorldCalender
+module MyWorldCalendar
   class DateTimeManager
     def self.create_calender()
     end

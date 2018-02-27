@@ -1,5 +1,5 @@
 require "bundler/setup"
-require "my_world_calender"
+require "my_world_calendar"
 
 RSpec.configure do |config|
   # Enable flags like --only-failures and --next-failure
