@@ -1,5 +1,12 @@
 module MyWorldCalender
   module DateTime
+    class Era
+      def initialize(name, abbr, since_date)
+        @name = name
+        @abbr = abbr
+        @since_date = MyWorldCalender::DateTime::Date.new(since_date)
+      end
+    end
     class AbstractCalender
       attr_accessor :era, :second_in_millis, :minute_in_millis, :hour_in_millis, :day_in_millis
 
